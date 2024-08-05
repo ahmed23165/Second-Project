@@ -1,0 +1,64 @@
+.arch1{
+    width: 18rem;
+    height: 34rem;
+}
+.arch7{
+    display: flex;
+   justify-content: center;
+}
+.arch8{
+    padding-top: 4rem;
+}
+.arch8 p{
+    font-size: 0.8rem;
+    padding-right: 8rem;
+}
+.arch5{
+    background-image: url('../Asset/pic11.webp');
+}
+.contact313{
+    margin-left: 4rem;
+    padding-top: 4rem;
+    width: 20rem;
+    background-image: url('../Asset/pic7.webp');
+    background-repeat: no-repeat;
+    background-size: 630px;
+}
+@media only screen and (max-width: 575px)
+{
+    .arch7{
+        display: flex;
+        flex-direction: column;
+width: 100%;
+overflow-x: hidden;
+    }
+    .arch1{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+}
+
+
+@media only screen and (max-width: 412px)
+{
+    .arch7{
+        display: flex;
+        flex-direction: column;
+width: 100%;
+overflow-x: hidden;
+    }
+    .arch1{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+}
+
+
+/*.arch5{
+    background-image: url(../Asset/pic9.webp);
+    background-repeat: no-repeat;
+
+}
+    */

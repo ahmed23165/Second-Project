@@ -1,0 +1,64 @@
+.card1{
+    width: 20rem;
+    height: 15rem;
+}
+.card2{
+    width: 20rem;
+    height: 15rem;
+}
+.card3{
+
+    width: 20rem;
+    height: 15rem;
+}
+.card4{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 6rem;
+}
+
+@media only screen and (max-width: 575px){
+    .card4{
+        display: flex;
+        flex-direction: column;
+      justify-content: center; 
+      text-align: center;       
+    width: 100%;
+    overflow-x: hidden;
+    }
+    .card2{
+        margin-top: 15rem;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .card3{
+        margin-top: 15rem;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 412px){
+    .card4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .card2{
+        margin-top: 15rem;
+        display: flex;
+        justify-content: center;
+         text-align: center;
+        overflow-x: hidden;
+        }
+    .card3{
+        margin-top: 15rem;
+        overflow-x: hidden;
+    }
+}

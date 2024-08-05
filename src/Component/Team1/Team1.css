@@ -1,0 +1,36 @@
+.Team1{
+    padding-top: 2rem;
+    background-image: url('../Asset/pic21.webp');
+    background-repeat: no-repeat;
+        background-size: 100% 950px;
+        width: 100%;
+        height: 600px;
+    
+}
+.Team5{
+    display: flex;
+    
+}
+.Team6{
+    padding: 0rem 2rem;
+}
+.Team7{
+    padding-left: 18rem;
+    padding-top: 10rem;
+}
+.Team8{
+    font-size: 3.4rem;
+    
+}
+.Team88{
+    padding-top: 8rem;
+    padding-left: 18rem;
+}
+@media only screen and (max-width: 575px){
+.Team1{
+    width: 100%;
+}
+.Team88{
+    margin-left: -8rem;
+}
+}

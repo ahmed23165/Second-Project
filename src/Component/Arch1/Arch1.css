@@ -1,0 +1,47 @@
+.arch40{
+    border-right: 2px solid black;
+    height: 100px;
+    
+}
+.arch120{
+    display: flex;
+    
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 8rem;
+}
+.arch41{
+    text-align: center;
+    padding-top: 0rem;
+}
+
+@media only screen and (max-width: 575px){
+    .arch120{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .arch40{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 412px){
+    .arch120{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .arch40{
+        width: 100%;
+       overflow-x: hidden;
+    }
+}

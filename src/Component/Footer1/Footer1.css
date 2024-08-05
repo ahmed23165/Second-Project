@@ -1,0 +1,34 @@
+.footer2 {
+    color: white;
+   margin-top: 17rem;
+}
+  
+  .footer2 a {
+    color: white;
+  }
+  
+  .footer2 .text-uppercase {
+    color: white;
+  }
+  
+  .footer2 .fw-bold {
+    color: white;
+  }
+  
+  .footer2 .me-3 {
+    color: white;
+  }
+  .footer2 p{
+    color: white;
+  }
+  .footer2 .text-center {
+    color: white;
+  }
+
+  @media only screen and (max-width: 575px)
+  {
+    .footer2{
+      width: 100%;
+      overflow-x: hidden;
+    }
+  }

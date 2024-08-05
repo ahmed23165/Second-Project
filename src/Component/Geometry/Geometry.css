@@ -1,0 +1,114 @@
+.geometry1{
+    width: 25rem;
+    height: 38rem;
+}
+.geometry2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+.geometry3{
+    padding-top: 15rem;
+}
+.geometry22{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+.geometry33{
+    padding-top: 15rem;
+}
+
+  .line {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-top: 4rem;
+}
+.line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: transform 0.3s;
+    transform-origin: left;
+}
+
+.line:hover::after {
+    transform: scaleX(2); /* Adjust scale as needed */
+}
+.line1 {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-top: 4rem;
+}
+.line1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: transform 0.3s;
+    transform-origin: right;
+}
+
+.line1:hover::after {
+    transform: scaleX(2); /* Adjust scale as needed */
+}
+  .geometry125{
+    display: flex;
+    
+  }
+@media only screen and (max-width: 575px){
+.geometry2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+.geometry22{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+.geometry1{
+    width: 100%;
+    overflow-x: hidden;
+}
+.geometry88{
+    overflow-x: hidden;
+}
+}
+
+
+
+
+@media only screen and (max-width: 412px){
+    .geometry2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .geometry22{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .geometry1{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    }

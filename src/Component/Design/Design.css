@@ -1,0 +1,80 @@
+.design{
+    display: flex;
+
+    text-align: center;
+
+    
+
+    
+}
+.design1{
+    background-color: #AFE1AF;
+    width: 40rem;
+    padding-top: 6rem;
+}
+.design2{
+    background-color: #90EE90;
+    padding-top: 6rem;
+}
+.design3{
+    background-color: #AFE1AF;
+    padding-top: 6rem;
+}
+.design4{
+    
+    background-color:#90EE90;
+    padding-top: 6rem;
+    width: 40rem;
+}
+
+
+@media only screen and (max-width: 575px){
+    .design{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design1{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design2{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design3{
+        width: 100%;
+        overflow-x: hidden;
+}
+.design4{
+    width: 100%;
+    overflow-x: hidden;
+}
+}
+
+
+@media only screen and (max-width: 425px){
+    .design{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design1{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design2{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .design3{
+        width: 100%;
+        overflow-x: hidden;
+}
+.design4{
+    width: 100%;
+    overflow-x: hidden;
+}
+}

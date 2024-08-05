@@ -1,0 +1,50 @@
+.blog1{
+    margin-top: 30rem;
+   text-align: center;
+}
+.blog2{
+    margin-top: 4rem;
+    width: 18rem;
+    height: 18rem;
+}
+.blog3{
+    margin-top: 4rem;
+    width: 18rem;
+    height: 18rem;
+}
+.blog4{
+    margin-top: 4rem;
+    width: 18rem;
+    height: 18rem;
+}
+.blog5{
+    margin-top: 4rem;
+    width: 18rem;
+    height: 18rem;
+}
+.blog6{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media only screen and (max-width: 575px){
+    .blog6{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       overflow-x: hidden;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 412px){
+    .blog6{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+}
